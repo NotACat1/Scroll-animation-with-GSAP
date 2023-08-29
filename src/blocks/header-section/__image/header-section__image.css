@@ -1,0 +1,22 @@
+.header-section__image {
+  width: calc(var(--index) * 30);
+  max-width: 100%;
+	position: absolute;
+	right: -10vw;
+	top: 15vh;
+	z-index: -1;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .header-section__image {
+    right: -7vw;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .header-section__image {
+    right: -7vw;
+  }
+}

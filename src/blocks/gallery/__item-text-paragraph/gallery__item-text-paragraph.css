@@ -1,0 +1,5 @@
+.gallery__item-text-paragraph {
+  font-size: calc(var(--index) * 1);
+  line-height: calc(var(--index) * 1.95);
+  text-align: justify;
+}

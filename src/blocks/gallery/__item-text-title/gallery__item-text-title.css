@@ -1,0 +1,6 @@
+.gallery__item-text-title {
+  font-size: calc(var(--index) * 2.5);
+	line-height: calc(var(--index) * 2.5);
+	color: var(--color-header);
+	margin-bottom: 1.5rem;
+}

@@ -1,0 +1,11 @@
+.gallery__column_left {
+  text-align: left;
+  margin-bottom: var(--gallery-gap);
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .gallery__column_left {
+    margin-bottom: 0;
+  }
+}

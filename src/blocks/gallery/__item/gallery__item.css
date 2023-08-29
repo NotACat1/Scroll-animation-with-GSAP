@@ -1,0 +1,12 @@
+.gallery__item {
+  max-width: calc(var(--index) * 20);
+  max-height: 100vh;
+  padding-left: calc(var(--index) * 0.85);
+  padding-right: calc(var(--index) * 0.85);
+	margin-bottom: var(--gallery-gap);	
+	border-radius: 10px;
+}
+
+.gallery__item:last-child {
+  margin-bottom: 0;
+}
