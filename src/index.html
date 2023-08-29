@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Кодировка и шапка страницы -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+
+  <!-- favicon -->
+  <link rel="apple-touch-icon" href="<%=require('./images/favicon/apple-touch-icon.png')%>">
+  <link rel="icon" href="<%=require('./images/favicon/favicon.ico')%>" sizes="16x16" type="image/x-icon">  
+
+  <!-- Метатеги для браузера -->
+  <meta name="description" content="Этот веб-сайт научит вас анимировать объекты с помощью библиотеки GSAP. Получите навыки создания захватывающих анимаций через пошаговые уроки и понимание принципов дизайна.">
+  <meta name="keywords" content="HTML5, CSS, JavaScript, GSAP">
+  <meta name="author" content="Рябов Даниил">
+  
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Scroll animation GSAP">
+  <meta property="og:description" content="Этот веб-сайт научит вас анимировать объекты с помощью библиотеки GSAP. Получите навыки создания захватывающих анимаций через пошаговые уроки и понимание принципов дизайна.">
+  <meta property="og:url" content="https://github.com/NotACat1">
+  <meta property="og:image" content="https://i.imgur.com/C8UyHZA.png">
+  <meta property="og:site_name" content="NotACat">
+  <meta property="og:locale" content="ru_RU">
+
+  <title>Scroll animation GSAP</title>
+</head>
+<body class="root">
+  <div class="wrapper">
+		<div class="content">
+      <header class="header-section">
+        <img data-speed=".6" class="header-section__image" src="<%=require('./images/creative_portrait.png')%>" alt="creative portrait">
+        <div class="header-section__container-title">
+          <h1 class="header-section__title">Creative scroll</h1>
+        </div>
+      </header>
+    
+      <main class="gallery">
+        <div data-speed=".9" class="gallery__column gallery__column_left">
+          <img class="gallery__item" src="<%=require('./images/work/about.jpg')%>" alt="work about">
+          <img class="gallery__item" src="<%=require('./images/work/edm.jpg')%>" alt="work edm">
+          <div class="gallery__item">
+            <h2 class="gallery__item-text-title">Creative floating scroll with amazing parallax effect</h2>
+            <p class="gallery__item-text-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor amount scrolling.</p>
+          </div>
+          <img class="gallery__item" src="<%=require('./images/work/fall_of_zeus.jpg')%>" alt="work fall of zeus">
+        </div>
+    
+        <div data-speed="1.1" class="gallery__column gallery__column_right">
+          <div class="gallery__item">
+            <h2 class="gallery__item-text-title">Creative floating scroll with amazing parallax effect</h2>
+            <p class="gallery__item-text-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor amount scrolling.</p>
+          </div>
+          <img class="gallery__item" src="<%=require('./images/work/giuong.jpg')%>" alt="work giuong">
+          <img class="gallery__item" src="<%=require('./images/work/john_wick.jpg')%>" alt="work john wick">
+          <img class="gallery__item" src="<%=require('./images/work/pedro.jpg')%>" alt="work pedro">
+        </div>
+      </main>
+    </div>
+  </div>
+</body>
+</html>
